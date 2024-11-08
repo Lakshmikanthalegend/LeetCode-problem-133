@@ -1,1 +1,2 @@
 # LeetCode-problem-133
+The provided Java solution implements a deep copy of a connected undirected graph using a recursive Depth-First Search (DFS) approach. The cloneGraph method initializes a HashMap to track cloned nodes, preventing duplicate copies. The helper method clone checks if a node has already been cloned; if so, it returns the existing copy. If not, it creates a new node, stores it in the map, and recursively clones its neighbors. This approach ensures that the graph's structure is preserved while efficiently managing memory usage through the visited map.
